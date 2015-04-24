@@ -1,0 +1,20 @@
+//andres Guillermo Castro
+//k1051
+//TP2: informar si el numero es par. 
+//24/04/2015
+
+#include <iostream>
+
+using namespace std;
+
+int a;
+
+int main()
+{
+	cout << "ingrese numero" << endl ;
+	cin >> a;
+	if ( a%2 == 0)
+	{
+	cout << "el numero es par" << endl;
+	}
+}
